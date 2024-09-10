@@ -1,0 +1,28 @@
+.pags {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.pags a {
+    text-decoration: none;
+}
+
+.pags button {
+    background-color: #cc1414;
+    color: white;
+    border: 10%;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 70px;
+    transition: background-color 0.3s ease;
+}
+
+.pags button:hover {
+    background-color: #000;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+}

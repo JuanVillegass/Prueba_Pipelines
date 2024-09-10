@@ -1,0 +1,29 @@
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f9fa;
+    padding: 10px;
+
+    button{
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
+    border: 10%;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 70px;
+    transition: background-color 0.3s ease;
+    }
+
+    button:hover{
+        background-color: black;
+        color: #f8f9fa;
+    }
+}
+
+.img {
+    width: 50%;
+    height: auto;
+}
+
+
+
